@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Strong Password"
+        android:inputType="textPersonName"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Confirm Password"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="177dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="Set Password" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#11abc2"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:text="Numeric Password Minimum Of 4 Digits Is Allowed " />
+
+
+</LinearLayout>
